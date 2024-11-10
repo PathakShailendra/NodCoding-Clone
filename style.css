@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: wow;
+    src: url(./fonts/HeyWow-Book.ttf);
+}
+
+@font-face {
+    font-family: wowsb;
+    src: url(./fonts/HeyWow-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: wowb;
+    src: url(./fonts/HeyWow-Bold.ttf);
+}
+
+nav{
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    padding: 8px 25px;
+    border-radius: 50px;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav .part2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav a{
+    font-family: wow;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #111;
+}
+
+nav button{
+    font-family: wow;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #70A2E1;
+    font-weight: 600;
+    color: #fff;
+    font-size: 15px;
+}
+
+nav img{
+    height: 3vw;
+    width: 5vw;
+}
+
+#page1{
+    height: 110vh;
+    width: 100%;
+    background-color: #fdfaf5;
+    padding: 2% 8%;
+    padding-top: 8%;
+}
+
+#coding{
+    height: 70%;
+    background-color: blue;
+}
+
+#page1bottom{
+    color: #000;
+    display: flex;
+    align-items: center;
+    height: 20%;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#page1bottom div{
+    width: 45%;
+}
+
+#page1bottom h1{
+    font-size: 8vw;
+    opacity: 0.8;
+    font-family: wow;
+}
+
+#page1bottom div h3{
+    font-size: 1.4vw;
+    margin-bottom: 0.2vw;
+    font-family: wow;
+    letter-spacing: 0.8px;
+}
+
+#page1bottom div p {
+    font-size: 1.2vw;
+    font-family: wow;
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #222;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+}
+
